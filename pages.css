@@ -277,8 +277,8 @@ header ul li a:hover, header ul li a.active
     .imgContainer img
     {
         border-radius: 5px;
-        width: 195px;
-        height: 195px;
+        width: 60%;
+        height: 60%;
         margin: 5px;
     }
     @keyframes animate
