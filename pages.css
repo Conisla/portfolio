@@ -137,36 +137,25 @@ header ul li a:hover, header ul li a.active
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
-.imgBx img
+.imgContainer
 {
-    max-width: 400px;
-    animation: animate 4s linear infinite;
+    display: flex;
 }
-
 .imgContainer img
 {
     border-radius: 5px;
-    width: 40%;
-    margin: 25px;
+    width: 295px;
+    height: 295px;
+    margin: 5px;
 }
 .imgContainer2 img
 {
     border-radius: 5px;
-    margin: 5%;
+    margin: 2.5%;
     width: 90%;
 }
 
-@keyframes animate
-{
-    0%,100%
-    {
-        transform: translateY(50px);
-    }
-    50%
-    {
-        transform: translateY(100px);
-    }
-}
+
 .sci
 {
     position: absolute;
@@ -271,11 +260,6 @@ header ul li a:hover, header ul li a.active
     {
         display: inline-block;
     }
-   
-    .imgBx
-    {
-        margin-bottom: 50px;
-    }
     #second 
     {
         transform:translateX(15px);
@@ -284,6 +268,18 @@ header ul li a:hover, header ul li a.active
     {
         font-size: 1em;
         padding: 10px 20px;
+    }
+    .imgContainer
+    {
+        margin: 5%;
+        flex-direction: column;
+    }
+    .imgContainer img
+    {
+        border-radius: 5px;
+        width: 195px;
+        height: 195px;
+        margin: 5px;
     }
     @keyframes animate
     {
